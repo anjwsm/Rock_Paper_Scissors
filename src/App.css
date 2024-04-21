@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 300vh;
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+.heading {
+  font-size: 50px;
+}
+.choice{
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.score{
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.computer-hand{
+  width: 250px;
+}
+
+.user-hand {
+  width: 250px;
+  transform: rotateY(180deg);
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.button{
+  width: 150px;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result{
+  padding: 50px;
+}
