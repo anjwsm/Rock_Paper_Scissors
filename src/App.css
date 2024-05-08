@@ -6,9 +6,10 @@
 
 .App {
   text-align: center;
-  height: 300vh;
+  height: 100vh;
   background-color: lightblue;
   font-family: sans-serif;
+  padding-top: 30px;
 }
 
 .heading {
